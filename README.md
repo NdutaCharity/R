@@ -1,4 +1,5 @@
 # R
 
-Beautiful maps in R
-Spatial viz
+  Beautiful maps in R
+  
+  Spatial viz
