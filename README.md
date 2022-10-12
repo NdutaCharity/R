@@ -16,7 +16,7 @@
         "By removing natural and stray light sources,
         researchers have provided a clearer picture of the human footprint on Earth 
         and opened up new opportunities in    disaster response, demographics, and applied research." 
-        (https://earthobservatory.nasa.gov/features/NightLights)
+        https://earthobservatory.nasa.gov/features/NightLights
     
    ### Libraries used
          "tidyverse", "sf", "giscoR", "mapview", "terra", "terrainr", "magick"
