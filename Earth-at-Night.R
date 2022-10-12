@@ -14,7 +14,7 @@ if (any(installed_libs == F)) {
 invisible(lapply(libs, library, character.only = T))
 
 # 1. WORLD MAP
-#-------------
+
 
 # define projections
 longlat_crs <- "+proj=longlat +datum=WGS84 +no_defs"
@@ -37,7 +37,7 @@ get_flat_world_sf <- function() {
 world_vect <- get_flat_world_sf()
 
 # 2. NASA DATA
-#-------------
+
 
 get_nasa_data <- function() {
     ras <- terra::rast("/vsicurl/https://eoimages.gsfc.nasa.gov/images/imagerecords/144000/144898/BlackMarble_2016_01deg_geo.tif")
@@ -52,7 +52,7 @@ r <- ifel(is.na(ras_ortho), 0, ras_ortho)
 plot(r)
 
 # 3. MAP NIGHTLIGHTS
-#-------------------
+
 
 make_nighlights_globe <- function() {
   globe <- ggplot() +
@@ -105,7 +105,7 @@ map_title <- magick::image_annotate(map, "Earth at night",
 )
 
 # 4. ANNOTATE MAP
-#----------------
+
 # read image
 map <- magick::image_read("nightlight_globe_np.png")
 
