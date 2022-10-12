@@ -11,7 +11,7 @@
     This is a fun map of the earth at night on R using  NASA’s Black Marble data to display the shiny lights on the globe
     with guidance from @Milos Popovic.
     
-    ![nightlight_globe_annotated_np](https://user-images.githubusercontent.com/58165250/195259811-0f26d1a7-ecf4-4cb2-9d89-d305f0377e24.png)
+  ![nightlight_globe_annotated_np](https://user-images.githubusercontent.com/58165250/195259811-0f26d1a7-ecf4-4cb2-9d89-d305f0377e24.png)
 
     
     Who doesn't love some dark and light (pun intended by all means 😉😉)
